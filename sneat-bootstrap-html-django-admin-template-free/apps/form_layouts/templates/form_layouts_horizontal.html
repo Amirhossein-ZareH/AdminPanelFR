@@ -3,7 +3,7 @@
 {% load static %}
 {% load i18n %}
 
-{% block title %}Horizontal Layouts - Forms{% endblock %}
+{% block title %}صفحه برگه های عمودی{% endblock %}
 
 {% block content %}
 <!-- Basic Layout & Basic with Icons -->
@@ -12,48 +12,48 @@
   <div class="col-xxl">
     <div class="card mb-6">
       <div class="card-header d-flex align-items-center justify-content-between">
-        <h5 class="mb-0">Basic Layout</h5> <small class="text-muted float-end">Default label</small>
+        <h5 class="mb-0">برگه ساده</h5> <small class="text-muted float-end">برچسب پیشفرض</small>
       </div>
       <div class="card-body">
         <form>
           {% csrf_token %}
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-default-name">Name</label>
+            <label class="col-sm-2 col-form-label" for="basic-default-name">نام</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="basic-default-name" placeholder="John Doe" />
             </div>
           </div>
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-default-company">Company</label>
+            <label class="col-sm-2 col-form-label" for="basic-default-company">شرکت</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" id="basic-default-company" placeholder="ACME Inc." />
             </div>
           </div>
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-default-email">Email</label>
+            <label class="col-sm-2 col-form-label" for="basic-default-email">ایمیل</label>
             <div class="col-sm-10">
               <div class="input-group input-group-merge">
                 <input type="text" id="basic-default-email" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="basic-default-email2" />
                 <span class="input-group-text" id="basic-default-email2">@example.com</span>
               </div>
-              <div class="form-text"> You can use letters, numbers & periods </div>
+              <div class="form-text">  استفاده کنیدشما میتوانید از حروف و شماره ها  & دوره </div>
             </div>
           </div>
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-default-phone">Phone No</label>
+            <label class="col-sm-2 col-form-label" for="basic-default-phone">شماره تلفن همراه</label>
             <div class="col-sm-10">
               <input type="text" id="basic-default-phone" class="form-control phone-mask" placeholder="658 799 8941" aria-label="658 799 8941" aria-describedby="basic-default-phone" />
             </div>
           </div>
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-default-message">Message</label>
+            <label class="col-sm-2 col-form-label" for="basic-default-message">پیام</label>
             <div class="col-sm-10">
               <textarea id="basic-default-message" class="form-control" placeholder="Hi, Do you have a moment to talk Joe?" aria-label="Hi, Do you have a moment to talk Joe?" aria-describedby="basic-icon-default-message2"></textarea>
             </div>
           </div>
           <div class="row justify-content-end">
             <div class="col-sm-10">
-              <button type="submit" class="btn btn-primary">Send</button>
+              <button type="submit" class="btn btn-primary">ارسال</button>
             </div>
           </div>
         </form>
@@ -64,13 +64,13 @@
   <div class="col-xxl">
     <div class="card mb-6">
       <div class="card-header d-flex align-items-center justify-content-between">
-        <h5 class="mb-0">Basic with Icons</h5> <small class="text-muted float-end">Merged input group</small>
+        <h5 class="mb-0">ساده با ایکون</h5> <small class="text-muted float-end">گروه های ادغام شده از ورودی</small>
       </div>
       <div class="card-body">
         <form>
           {% csrf_token %}
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Name</label>
+            <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">نام</label>
             <div class="col-sm-10">
               <div class="input-group input-group-merge">
                 <span id="basic-icon-default-fullname2" class="input-group-text"><i class="bx bx-user"></i></span>
@@ -79,7 +79,7 @@
             </div>
           </div>
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-icon-default-company">Company</label>
+            <label class="col-sm-2 col-form-label" for="basic-icon-default-company">شرکت</label>
             <div class="col-sm-10">
               <div class="input-group input-group-merge">
                 <span id="basic-icon-default-company2" class="input-group-text"><i class="bx bx-buildings"></i></span>
@@ -88,18 +88,18 @@
             </div>
           </div>
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-icon-default-email">Email</label>
+            <label class="col-sm-2 col-form-label" for="basic-icon-default-email">ایمیل</label>
             <div class="col-sm-10">
               <div class="input-group input-group-merge">
                 <span class="input-group-text"><i class="bx bx-envelope"></i></span>
                 <input type="text" id="basic-icon-default-email" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="basic-icon-default-email2" />
                 <span id="basic-icon-default-email2" class="input-group-text">@example.com</span>
               </div>
-              <div class="form-text"> You can use letters, numbers & periods </div>
+              <div class="form-text">  استفاده کنیدشما میتوانید از حروف و شماره ها  & دوره </div>
             </div>
           </div>
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-icon-default-phone">Phone No</label>
+            <label class="col-sm-2 col-form-label" for="basic-icon-default-phone">شماره تلفن همراه</label>
             <div class="col-sm-10">
               <div class="input-group input-group-merge">
                 <span id="basic-icon-default-phone2" class="input-group-text"><i class="bx bx-phone"></i></span>
@@ -108,7 +108,7 @@
             </div>
           </div>
           <div class="row mb-6">
-            <label class="col-sm-2 col-form-label" for="basic-icon-default-message">Message</label>
+            <label class="col-sm-2 col-form-label" for="basic-icon-default-message">پیغام</label>
             <div class="col-sm-10">
               <div class="input-group input-group-merge">
                 <span id="basic-icon-default-message2" class="input-group-text"><i class="bx bx-comment"></i></span>
@@ -118,7 +118,7 @@
           </div>
           <div class="row justify-content-end">
             <div class="col-sm-10">
-              <button type="submit" class="btn btn-primary">Send</button>
+              <button type="submit" class="btn btn-primary">ارسال</button>
             </div>
           </div>
         </form>
