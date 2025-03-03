@@ -3,14 +3,14 @@
 {% load static %}
 {% load i18n %}
 
-{% block title %}Input groups - Forms{% endblock %}
+{% block title %}صفحه ورودی های گروهی{% endblock %}
 
 {% block content %}
 <div class="row g-6">
   <!-- Basic -->
   <div class="col-md-6">
     <div class="card">
-      <h5 class="card-header">Basic</h5>
+      <h5 class="card-header">ساده</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
         <div class="input-group">
@@ -19,7 +19,7 @@
         </div>
 
         <div class="form-password-toggle">
-          <label class="form-label" for="basic-default-password12">Password</label>
+          <label class="form-label" for="basic-default-password12">رمزعبور</label>
           <div class="input-group">
             <input type="password" class="form-control" id="basic-default-password12" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="basic-default-password2" />
             <span id="basic-default-password2" class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
@@ -43,7 +43,7 @@
         </div>
 
         <div class="input-group">
-          <span class="input-group-text">With textarea</span>
+          <span class="input-group-text">به همراه محل نوشتاری</span>
           <textarea class="form-control" aria-label="With textarea" placeholder="Comment"></textarea>
         </div>
 
@@ -54,7 +54,7 @@
   <!-- Merged -->
   <div class="col-md-6">
     <div class="card">
-      <h5 class="card-header">Merged</h5>
+      <h5 class="card-header">ادغام شده</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
         <div class="input-group input-group-merge">
@@ -63,7 +63,7 @@
         </div>
 
         <div class="form-password-toggle">
-          <label class="form-label" for="basic-default-password32">Password</label>
+          <label class="form-label" for="basic-default-password32">رمزعبور</label>
           <div class="input-group input-group-merge">
             <input type="password" class="form-control" id="basic-default-password32" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="basic-default-password" />
             <span class="input-group-text cursor-pointer" id="basic-default-password"><i class="bx bx-hide"></i></span>
@@ -87,7 +87,7 @@
         </div>
 
         <div class="input-group input-group-merge">
-          <span class="input-group-text">With textarea</span>
+          <span class="input-group-text">به همراه محل نوشتاری</span>
           <textarea class="form-control" aria-label="With textarea"></textarea>
         </div>
 
@@ -98,7 +98,7 @@
   <!-- Sizing -->
   <div class="col-md-6">
     <div class="card mb-6">
-      <h5 class="card-header">Sizing</h5>
+      <h5 class="card-header">اندازه گیری</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
         <div class="input-group input-group-lg">
@@ -119,10 +119,10 @@
       </div>
     </div>
   </div>
-  <!-- Checkbox and radio addons -->
+  <!-- Checkbox and radio عناصر اضافی -->
   <div class="col-md-6">
     <div class="card">
-      <h5 class="card-header">Checkbox and radio addons</h5>
+      <h5 class="card-header">چک باکس های و رادیو ها</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
         <div class="input-group">
@@ -150,25 +150,25 @@
   <!-- Multiple inputs & addon -->
   <div class="col-md-6">
     <div class="card mb-6">
-      <h5 class="card-header">Multiple inputs & addon</h5>
+      <h5 class="card-header">ورودی چندتایی & عناصر اضافی</h5>
 
       <div class="card-body demo-vertical-spacing demo-only-element">
-        <small class="text-light fw-medium d-block">Multiple inputs</small>
+        <small class="text-light fw-medium d-block">ورودی چندتایی</small>
         <div class="input-group">
-          <span class="input-group-text">First and last name</span>
+          <span class="input-group-text">نام و نام خانوادگی</span>
           <input type="text" aria-label="First name" class="form-control">
           <input type="text" aria-label="Last name" class="form-control">
         </div>
 
-        <small class="text-light fw-medium d-block pt-4">Multiple addons</small>
+        <small class="text-light fw-medium d-block pt-4">عناصرضافی چندتایی</small>
         <div class="input-group">
           <span class="input-group-text">$</span>
           <span class="input-group-text">0.00</span>
-          <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <input type="number" class="form-control" aria-label="Dollar amount (with dot and دو decimal places)">
         </div>
 
         <div class="input-group">
-          <input type="number" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <input type="number" class="form-control" aria-label="Dollar amount (with dot and دو decimal places)">
           <span class="input-group-text">$</span>
           <span class="input-group-text">0.00</span>
         </div>
@@ -179,24 +179,24 @@
   <!-- Speech To Text -->
   <div class="col-md-6">
     <div class="card mb-6">
-      <h5 class="card-header">Speech To Text</h5>
+      <h5 class="card-header">تبدیل صدا به متن</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
 
-        <small class="text-light fw-medium d-block">Input Group</small>
+        <small class="text-light fw-medium d-block">ورودی گروهی</small>
 
         <div class="input-group input-group-merge form-send-message">
           <input type="text" class="form-control message-input" placeholder="Say it" aria-describedby="text-to-speech-addon">
           <span class="message-actions input-group-text" id="text-to-speech-addon">
-            <i class="bx bx-microphone cursor-pointer speech-to-text"></i>
+            <i class="bx bx-microphیک cursor-pointer speech-to-text"></i>
           </span>
         </div>
 
-        <small class="text-light fw-medium d-block pt-4">Textarea</small>
+        <small class="text-light fw-medium d-block pt-4">محل نوشتاری</small>
 
         <div class="input-group input-group-merge form-send-message">
           <textarea class="form-control message-input" placeholder="Say it" rows="2"></textarea>
           <span class="message-actions input-group-text">
-            <i class='bx bx-microphone cursor-pointer speech-to-text'></i>
+            <i class='bx bx-microphیک cursor-pointer speech-to-text'></i>
           </span>
         </div>
 
@@ -205,46 +205,46 @@
   </div>
 </div>
 
-<!-- Button with dropdowns & addons -->
+<!-- Button with dropdowns & عناصر اضافی -->
 <div class="row">
   <div class="col-md-6">
     <div class="card mb-6">
-      <h5 class="card-header">Button with dropdowns & addons</h5>
+      <h5 class="card-header">دکمه ها و دراپ داون ها & عناصر اضافی</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
-        <small class="text-light fw-medium d-block">Button addons</small>
+        <small class="text-light fw-medium d-block">دکمه عناصر اضافی</small>
         <div class="input-group">
-          <button class="btn btn-outline-primary" type="button" id="button-addon1">Button</button>
+          <button class="btn btn-outline-primary" type="button" id="button-addon1">دکمه</button>
           <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
         </div>
 
         <div class="input-group">
           <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-          <button class="btn btn-outline-primary" type="button" id="button-addon2">Button</button>
+          <button class="btn btn-outline-primary" type="button" id="button-addon2">دکمه</button>
         </div>
 
         <div class="input-group">
-          <button class="btn btn-outline-primary" type="button">Button</button>
-          <button class="btn btn-outline-primary" type="button">Button</button>
-          <input type="text" class="form-control" placeholder="" aria-label="Example text with two button addons">
+          <button class="btn btn-outline-primary" type="button">دکمه</button>
+          <button class="btn btn-outline-primary" type="button">دکمه</button>
+          <input type="text" class="form-control" placeholder="" aria-label="Example text with دو button عناصر اضافی">
         </div>
 
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username with two button addons">
-          <button class="btn btn-outline-primary" type="button">Button</button>
-          <button class="btn btn-outline-primary" type="button">Button</button>
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username with دو button عناصر اضافی">
+          <button class="btn btn-outline-primary" type="button">دکمه</button>
+          <button class="btn btn-outline-primary" type="button">دکمه</button>
         </div>
 
-        <small class="text-light fw-medium d-block pt-4">Button with dropdowns</small>
+        <small class="text-light fw-medium d-block pt-4">دکمه و دراپ داون ها</small>
         <div class="input-group">
           <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Another action</a></li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">اکشن</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">اکشن دیگر</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">چیز دیگری در این محل</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Separated link</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">لینک جداگانه</a></li>
           </ul>
           <input type="text" class="form-control" aria-label="Text input with dropdown button">
         </div>
@@ -253,37 +253,37 @@
           <input type="text" class="form-control" aria-label="Text input with dropdown button">
           <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Another action</a></li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">اکشن</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">اکشنی دیگر</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">چیز دیگری در این محل</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Separated link</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">لینک جداگانه</a></li>
           </ul>
         </div>
 
         <div class="input-group">
           <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="javascript:void(0);">Action before</a></li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Another action before</a></li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">اکشن قبلی</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">اکشن دیگری از قبل</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">چیز دیگری در این محل</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Separated link</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">لینک جداگانه</a></li>
           </ul>
           <input type="text" class="form-control" aria-label="Text input with 2 dropdown buttons">
           <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Another action</a></li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">اکشن</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">اکشن دیکر</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">چیز دیگری در این محل</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item" href="javascript:void(0);">Separated link</a></li>
+            <li><a class="dropdown-item" href="javascript:void(0);">لینک جداگانه</a></li>
           </ul>
         </div>
 
@@ -297,39 +297,39 @@
     <div class="row">
       <div class="col-12">
         <div class="card mb-6">
-          <h5 class="card-header">Segmented buttons</h5>
+          <h5 class="card-header">دکمه های بخش بندی شده</h5>
           <div class="card-body demo-vertical-spacing demo-only-element">
             <div class="input-group">
-              <button type="button" class="btn btn-outline-primary">Action</button>
+              <button type="button" class="btn btn-outline-primary">اکشن</button>
               <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="visually-hidden">Toggle Dropdown</span>
+                <span class="visually-hidden">منوی کشویی</span>
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);">Another action</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">اکشن</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">اکشن دیگر</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">چیز دیگری در این محل</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="javascript:void(0);">Separated link</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">لینک جداگانه</a></li>
               </ul>
               <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
             </div>
 
             <div class="input-group">
               <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
-              <button type="button" class="btn btn-outline-primary">Action</button>
+              <button type="button" class="btn btn-outline-primary">اکشن</button>
               <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="visually-hidden">Toggle Dropdown</span>
+                <span class="visually-hidden">منوی کشویی</span>
               </button>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="javascript:void(0);">Action</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);">Another action</a></li>
-                <li><a class="dropdown-item" href="javascript:void(0);">Something else here</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">اکشن</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">اکشن دیگر</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">چیز دیگری در این محل</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item" href="javascript:void(0);">Separated link</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0);">لینک جداگانه</a></li>
               </ul>
             </div>
           </div>
@@ -341,46 +341,46 @@
     <div class="row">
       <div class="col-12">
         <div class="card mb-6">
-          <h5 class="card-header">Custom select</h5>
+          <h5 class="card-header">انتخاب سلیفه ای</h5>
           <div class="card-body demo-vertical-spacing demo-only-element">
             <div class="input-group">
-              <label class="input-group-text" for="inputGroupSelect01">Options</label>
+              <label class="input-group-text" for="inputGroupSelect01">تنظیمات</label>
               <select class="form-select" id="inputGroupSelect01">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>انتخاب...</option>
+                <option value="1">یک</option>
+                <option value="2">دو</option>
+                <option value="3">سه</option>
               </select>
             </div>
 
             <div class="input-group">
               <select class="form-select" id="inputGroupSelect02">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>انتخاب...</option>
+                <option value="1">یک</option>
+                <option value="2">دو</option>
+                <option value="3">سه</option>
               </select>
-              <label class="input-group-text" for="inputGroupSelect02">Options</label>
+              <label class="input-group-text" for="inputGroupSelect02">تنظیمات</label>
             </div>
 
             <div class="input-group">
-              <button class="btn btn-outline-primary" type="button">Button</button>
+              <button class="btn btn-outline-primary" type="button">دکمه</button>
               <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>انتخاب...</option>
+                <option value="1">یک</option>
+                <option value="2">دو</option>
+                <option value="3">سه</option>
               </select>
             </div>
 
             <div class="input-group">
               <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>انتخاب...</option>
+                <option value="1">یک</option>
+                <option value="2">دو</option>
+                <option value="3">سه</option>
               </select>
-              <button class="btn btn-outline-primary" type="button">Button</button>
+              <button class="btn btn-outline-primary" type="button">دکمه</button>
             </div>
           </div>
         </div>
@@ -394,26 +394,26 @@
 <div class="row">
   <div class="col-12">
     <div class="card">
-      <h5 class="card-header">Custom file input</h5>
+      <h5 class="card-header">ورودی فایل سلیقه ای</h5>
       <div class="card-body demo-vertical-spacing demo-only-element">
         <div class="input-group">
-          <label class="input-group-text" for="inputGroupFile01">Upload</label>
+          <label class="input-group-text" for="inputGroupFile01">آپلود</label>
           <input type="file" class="form-control" id="inputGroupFile01">
         </div>
 
         <div class="input-group">
           <input type="file" class="form-control" id="inputGroupFile02">
-          <label class="input-group-text" for="inputGroupFile02">Upload</label>
+          <label class="input-group-text" for="inputGroupFile02">آپلود</label>
         </div>
 
         <div class="input-group">
-          <button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon03">Button</button>
+          <button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon03">دکمه</button>
           <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
         </div>
 
         <div class="input-group">
           <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
-          <button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon04">Button</button>
+          <button class="btn btn-outline-primary" type="button" id="inputGroupFileAddon04">دکمه</button>
         </div>
       </div>
     </div>
