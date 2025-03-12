@@ -3,7 +3,7 @@
 {% load static %}
 {% load i18n %}
 
-{% block title %}Modals - UI elements{% endblock %}
+{% block title %}مدال‌ها - عناصر رابط کاربری{% endblock %}
 
 {% block page_js %}
 {{ block.super }}
@@ -14,16 +14,16 @@
 {% block content %}
 <!-- Bootstrap modals -->
 <div class="card mb-6">
-  <h5 class="card-header">Bootstrap modals</h5>
+  <h5 class="card-header">مدل های بوت استرپ</h5>
   <div class="card-body">
     <div class="row gy-3">
       <!-- Default Modal -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-medium">Default</small>
+        <small class="text-light fw-medium">پیشفرض</small>
         <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
-            Launch modal
+            شروع مدل
           </button>
 
           <!-- Modal -->
@@ -31,30 +31,30 @@
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel1">Modal title</h5>
+                  <h5 class="modal-title" id="exampleModalLabel1">عنوان مدال</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
                     <div class="col mb-6">
-                      <label for="nameBasic" class="form-label">Name</label>
+                      <label for="nameBasic" class="form-label">نام</label>
                       <input type="text" id="nameBasic" class="form-control" placeholder="Enter Name">
                     </div>
                   </div>
                   <div class="row g-6">
                     <div class="col mb-0">
-                      <label for="emailBasic" class="form-label">Email</label>
+                      <label for="emailBasic" class="form-label">ایمیل</label>
                       <input type="email" id="emailBasic" class="form-control" placeholder="xxxx@xxx.xx">
                     </div>
                     <div class="col mb-0">
-                      <label for="dobBasic" class="form-label">DOB</label>
+                      <label for="dobBasic" class="form-label">تاریخ تولد</label>
                       <input type="date" id="dobBasic" class="form-control">
                     </div>
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                  <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
                 </div>
               </div>
             </div>
@@ -64,11 +64,11 @@
 
       <!-- Vertically Centered Modal -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-medium">Vertically centered</small>
+        <small class="text-light fw-medium">متمرکز به صورت عمودی</small>
         <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCenter">
-            Launch modal
+            شروع مدال
           </button>
 
           <!-- Modal -->
@@ -76,30 +76,30 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="modalCenterTitle">Modal title</h5>
+                  <h5 class="modal-title" id="modalCenterTitle">عنوان مدال</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
                     <div class="col mb-6">
-                      <label for="nameWithTitle" class="form-label">Name</label>
+                      <label for="nameWithTitle" class="form-label">نام</label>
                       <input type="text" id="nameWithTitle" class="form-control" placeholder="Enter Name">
                     </div>
                   </div>
                   <div class="row g-6">
                     <div class="col mb-0">
-                      <label for="emailWithTitle" class="form-label">Email</label>
+                      <label for="emailWithTitle" class="form-label">ایمیل</label>
                       <input type="email" id="emailWithTitle" class="form-control" placeholder="xxxx@xxx.xx">
                     </div>
                     <div class="col mb-0">
-                      <label for="dobWithTitle" class="form-label">DOB</label>
+                      <label for="dobWithTitle" class="form-label">تاریخ تولد</label>
                       <input type="date" id="dobWithTitle" class="form-control">
                     </div>
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                  <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
                 </div>
               </div>
             </div>
@@ -109,11 +109,11 @@
 
       <!-- Slide from Top Modal -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-medium">Slide from Top</small>
+        <small class="text-light fw-medium">اسلاید از بالا</small>
         <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTop">
-            Launch modal
+            شروع مدال
           </button>
 
           <!-- Modal -->
@@ -121,30 +121,30 @@
             <div class="modal-dialog">
               <form class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="modalTopTitle">Modal title</h5>
+                  <h5 class="modal-title" id="modalTopTitle">عنوان مدال</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
                     <div class="col mb-6">
-                      <label for="nameSlideTop" class="form-label">Name</label>
+                      <label for="nameSlideTop" class="form-label">نام</label>
                       <input type="text" id="nameSlideTop" class="form-control" placeholder="Enter Name">
                     </div>
                   </div>
                   <div class="row g-6">
                     <div class="col mb-0">
-                      <label for="emailSlideTop" class="form-label">Email</label>
+                      <label for="emailSlideTop" class="form-label">ایمیل</label>
                       <input type="email" id="emailSlideTop" class="form-control" placeholder="xxxx@xxx.xx">
                     </div>
                     <div class="col mb-0">
-                      <label for="dobSlideTop" class="form-label">DOB</label>
+                      <label for="dobSlideTop" class="form-label">تاریخ تولد</label>
                       <input type="date" id="dobSlideTop" class="form-control">
                     </div>
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save</button>
+                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                  <button type="button" class="btn btn-primary">ذخیره</button>
                 </div>
               </form>
             </div>
@@ -158,10 +158,10 @@
     <div class="row gy-3">
       <!-- Modal with YouTube Video -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-medium">YouTube Video</small>
+        <small class="text-light fw-medium">ویدیو یوتوب</small>
         <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#youTubeModal" data-theVideo="https://www.youtube.com/embed/EngW7tLk6R8">
-            Launch modal
+            شروع مدال
           </button>
 
           <!-- Modal -->
@@ -177,10 +177,10 @@
 
       <!-- Toggle Between Modals -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-medium">Toggle Between Modals</small>
+        <small class="text-light fw-medium">چرخ بین مدال ها</small>
         <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalToggle">
-            Launch modal
+            شروع مدال
           </button>
 
           <!-- Modal 1-->
@@ -188,14 +188,14 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="modalToggleLabel">Modal 1</h5>
+                  <h5 class="modal-title" id="modalToggleLabel">مدال 1</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Show a second modal and hide this one with the button below.
+                  با دکمه زیر یک مدال دوم را نمایش دهید و این یکی را مخفی کنید.
                 </div>
                 <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#modalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Open second modal</button>
+                  <button class="btn btn-primary" data-bs-target="#modalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">بازکرن مدال دوم</button>
                 </div>
               </div>
             </div>
@@ -205,14 +205,14 @@
             <div class="modal-dialog modal-dialog-centered">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="modalToggleLabel2">Modal 2</h5>
+                  <h5 class="modal-title" id="modalToggleLabel2">مدال 2</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  Hide this modal and show the first with the button below.
+                  این مدال را مخفی کنید و اولین مدال را با دکمه زیر نمایش دهید.
                 </div>
                 <div class="modal-footer">
-                  <button class="btn btn-primary" data-bs-target="#modalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+                  <button class="btn btn-primary" data-bs-target="#modalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">بازگشت به حالت اولیه</button>
                 </div>
               </div>
             </div>
@@ -222,10 +222,10 @@
 
       <!-- Fullscreen Modal -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-medium">Fullscreen</small>
+        <small class="text-light fw-medium">تمام صفحه</small>
         <div class="mt-4">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
-            Launch modal
+            شروع مدال
           </button>
 
           <!-- Modal -->
@@ -233,7 +233,7 @@
             <div class="modal-dialog modal-fullscreen" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="modalFullTitle">Modal title</h5>
+                  <h5 class="modal-title" id="modalFullTitle">عنوان مدال</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -275,8 +275,8 @@
                     consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                  <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
                 </div>
               </div>
             </div>
@@ -290,36 +290,36 @@
     <div class="row gy-3">
       <!-- Modal Sizes -->
       <div class="col-lg-4 col-md-6">
-        <small class="text-light fw-medium">Sizes</small>
+        <small class="text-light fw-medium">سایزها</small>
         <!-- Small Modal -->
         <div class="modal fade" id="smallModal" tabindex="-1" aria-hidden="true">
           <div class="modal-dialog modal-sm" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel2">عنوان مدال</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <div class="row">
                   <div class="col mb-6">
-                    <label for="nameSmall" class="form-label">Name</label>
+                    <label for="nameSmall" class="form-label">نام</label>
                     <input type="text" id="nameSmall" class="form-control" placeholder="Enter Name">
                   </div>
                 </div>
                 <div class="row g-6">
                   <div class="col mb-0">
-                    <label class="form-label" for="emailSmall">Email</label>
+                    <label class="form-label" for="emailSmall">ایمیل</label>
                     <input type="email" class="form-control" id="emailSmall" placeholder="xxxx@xxx.xx">
                   </div>
                   <div class="col mb-0">
-                    <label for="dobSmall" class="form-label">DOB</label>
+                    <label for="dobSmall" class="form-label">تاریخ تولد</label>
                     <input id="dobSmall" type="date" class="form-control">
                   </div>
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
               </div>
             </div>
           </div>
@@ -329,30 +329,30 @@
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel3">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel3">عنوان مدال</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <div class="row">
                   <div class="col mb-6">
-                    <label for="nameLarge" class="form-label">Name</label>
+                    <label for="nameLarge" class="form-label">نام</label>
                     <input type="text" id="nameLarge" class="form-control" placeholder="Enter Name">
                   </div>
                 </div>
                 <div class="row g-6">
                   <div class="col mb-0">
-                    <label for="emailLarge" class="form-label">Email</label>
+                    <label for="emailLarge" class="form-label">ایمیل</label>
                     <input type="email" id="emailLarge" class="form-control" placeholder="xxxx@xxx.xx">
                   </div>
                   <div class="col mb-0">
-                    <label for="dobLarge" class="form-label">DOB</label>
+                    <label for="dobLarge" class="form-label">تاریخ تولد</label>
                     <input type="date" id="dobLarge" class="form-control">
                   </div>
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
               </div>
             </div>
           </div>
@@ -362,58 +362,58 @@
           <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel4">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel4">عنوان مدال</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
                 <div class="row">
                   <div class="col mb-6">
-                    <label for="nameExLarge" class="form-label">Name</label>
+                    <label for="nameExLarge" class="form-label">نام</label>
                     <input type="text" id="nameExLarge" class="form-control" placeholder="Enter Name">
                   </div>
                 </div>
                 <div class="row g-6">
                   <div class="col mb-0">
-                    <label for="emailExLarge" class="form-label">Email</label>
+                    <label for="emailExLarge" class="form-label">ایمیل</label>
                     <input type="email" id="emailExLarge" class="form-control" placeholder="xxxx@xxx.xx">
                   </div>
                   <div class="col mb-0">
-                    <label for="dobExLarge" class="form-label">DOB</label>
+                    <label for="dobExLarge" class="form-label">تاریخ تولد</label>
                     <input type="date" id="dobExLarge" class="form-control">
                   </div>
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
               </div>
             </div>
           </div>
         </div>
         <div class="demo-inline-spacing">
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#smallModal">
-            Small
+            کوچک
           </button>
 
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal">
-            Large
+            بزرگ
           </button>
 
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exLargeModal">
-            Extra Large
+            بسیار بزرگ
           </button>
         </div>
       </div>
 
       <!-- Modal Scroll long content -->
       <div class="col-lg-4 col-md-3">
-        <small class="text-light fw-medium">Scrolling long content</small>
+        <small class="text-light fw-medium">چرخ در محتوای بزرگ</small>
         <!-- Modal -->
         <div class="modal fade" id="modalLong" tabindex="-1" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="modalLongTitle">Modal title</h5>
+                <h5 class="modal-title" id="modalLongTitle">عنوان مدال</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -455,8 +455,8 @@
                   consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
               </div>
             </div>
           </div>
@@ -466,7 +466,7 @@
           <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="modalScrollableTitle">Modal title</h5>
+                <h5 class="modal-title" id="modalScrollableTitle">عنوان مدال</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -508,8 +508,8 @@
                   consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                <button type="button" class="btn btn-primary">ذخیره تغییرات</button>
               </div>
             </div>
           </div>
@@ -517,23 +517,23 @@
         <div class="demo-inline-spacing">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLong">
-            Option 1
+            تنظیم1
           </button>
 
           <!-- Button ModalScrollable -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalScrollable">
-            Option 2
+            تنظیم2
           </button>
         </div>
       </div>
 
       <!-- Modal Backdrop -->
       <div class="col-lg-4 col-md-3">
-        <small class="text-light fw-medium">Backdrop</small>
+        <small class="text-light fw-medium">پس زمینه</small>
         <div class="mt-4">
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#backDropModal">
-            Launch modal
+            شروع مدال
           </button>
 
           <!-- Modal -->
@@ -541,30 +541,30 @@
             <div class="modal-dialog">
               <form class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="backDropModalTitle">Modal title</h5>
+                  <h5 class="modal-title" id="backDropModalTitle">عنوان مدال</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="row">
                     <div class="col mb-6">
-                      <label for="nameBackdrop" class="form-label">Name</label>
+                      <label for="nameBackdrop" class="form-label">نام</label>
                       <input type="text" id="nameBackdrop" class="form-control" placeholder="Enter Name">
                     </div>
                   </div>
                   <div class="row g-6">
                     <div class="col mb-0">
-                      <label for="emailBackdrop" class="form-label">Email</label>
+                      <label for="emailBackdrop" class="form-label">ایمیل</label>
                       <input type="email" id="emailBackdrop" class="form-control" placeholder="xxxx@xxx.xx">
                     </div>
                     <div class="col mb-0">
-                      <label for="dobBackdrop" class="form-label">DOB</label>
+                      <label for="dobBackdrop" class="form-label">تاریخ تولد</label>
                       <input type="date" id="dobBackdrop" class="form-control">
                     </div>
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save</button>
+                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">بستن</button>
+                  <button type="button" class="btn btn-primary">ذخیره</button>
                 </div>
               </form>
             </div>
