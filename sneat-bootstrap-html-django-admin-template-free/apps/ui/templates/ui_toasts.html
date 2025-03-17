@@ -3,7 +3,7 @@
 {% load static %}
 {% load i18n %}
 
-{% block title %}Toasts - UI elements{% endblock %}
+{% block title %}توست‌ها - عناصر رابط کاربری{% endblock %}
 
 {% block page_js %}
 {{ block.super }}
@@ -16,8 +16,8 @@
 <div class="bs-toast toast toast-placement-ex m-2" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="2000">
   <div class="toast-header">
     <i class='bx bx-bell me-2'></i>
-    <div class="me-auto fw-medium">Bootstrap</div>
-    <small>11 mins ago</small>
+    <div class="me-auto fw-medium">بوت استرپ</div>
+    <small>11 دقیقه قبل</small>
     <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
   </div>
   <div class="toast-body">
@@ -28,38 +28,38 @@
 
 <!-- Bootstrap Toasts with Placement -->
 <div class="card mb-6">
-  <h5 class="card-header">Bootstrap Toasts Example With Placement</h5>
+  <h5 class="card-header">مثال هایی از توست های بوت استرپ با جاگیری</h5>
   <div class="card-body">
     <div class="row gx-3 gy-2 align-items-center">
       <div class="col-md-3">
         <label class="form-label" for="selectTypeOpt">Type</label>
         <select id="selectTypeOpt" class="form-select color-dropdown">
-          <option value="bg-primary" selected>Primary</option>
-          <option value="bg-secondary">Secondary</option>
-          <option value="bg-success">Success</option>
-          <option value="bg-danger">Danger</option>
-          <option value="bg-warning">Warning</option>
-          <option value="bg-info">Info</option>
-          <option value="bg-dark">Dark</option>
+          <option value="bg-primary" selected>اولیه</option>
+          <option value="bg-secondary">ثانویه</option>
+          <option value="bg-success">موفق</option>
+          <option value="bg-danger">خطر</option>
+          <option value="bg-warning">اخطار</option>
+          <option value="bg-info">اطلاعات</option>
+          <option value="bg-dark">سیاه</option>
         </select>
       </div>
       <div class="col-md-3">
-        <label class="form-label" for="selectPlacement">Placement</label>
+        <label class="form-label" for="selectPlacement">جاگیری</label>
         <select class="form-select placement-dropdown" id="selectPlacement">
-          <option value="top-0 start-0">Top left</option>
-          <option value="top-0 start-50 translate-middle-x">Top center</option>
-          <option value="top-0 end-0">Top right</option>
-          <option value="top-50 start-0 translate-middle-y">Middle left</option>
-          <option value="top-50 start-50 translate-middle">Middle center</option>
-          <option value="top-50 end-0 translate-middle-y">Middle right</option>
-          <option value="bottom-0 start-0">Bottom left</option>
-          <option value="bottom-0 start-50 translate-middle-x">Bottom center</option>
-          <option value="bottom-0 end-0">Bottom right</option>
+          <option value="top-0 start-0">بالا سمت چپ</option>
+          <option value="top-0 start-50 translate-middle-x">بالا وسط</option>
+          <option value="top-0 end-0">بالا سمت راست</option>
+          <option value="top-50 start-0 translate-middle-y">وسط سمت چپ</option>
+          <option value="top-50 start-50 translate-middle">وسط</option>
+          <option value="top-50 end-0 translate-middle-y">وسط سمت راست</option>
+          <option value="bottom-0 start-0">پایین سمت چپ</option>
+          <option value="bottom-0 start-50 translate-middle-x">پایین وسط</option>
+          <option value="bottom-0 end-0">پایین سمت راست</option>
         </select>
       </div>
       <div class="col-md-3">
         <label class="form-label" for="showToastPlacement">&nbsp;</label>
-        <button id="showToastPlacement" class="btn btn-primary d-block">Show Toast</button>
+        <button id="showToastPlacement" class="btn btn-primary d-block">نشان دادن توست</button>
       </div>
     </div>
   </div>
@@ -68,17 +68,17 @@
 
 <!-- Bootstrap Toasts Styles -->
 <div class="card mb-6">
-  <h5 class="card-header">Bootstrap Toasts Styles</h5>
+  <h5 class="card-header">استایل توست های بوت استرپ</h5>
   <div class="row g-0">
     <div class="col-md-6 p-6">
-      <div class="text-light small fw-medium mb-4">Default</div>
+      <div class="text-light small fw-medium mb-4">پیشفرض</div>
       <div class="toast-container position-relative">
 
         <div class="bs-toast toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -89,8 +89,8 @@
         <div class="bs-toast toast fade show bg-primary" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -101,8 +101,8 @@
         <div class="bs-toast toast fade show bg-secondary" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -113,8 +113,8 @@
         <div class="bs-toast toast fade show bg-success" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -125,8 +125,8 @@
         <div class="bs-toast toast fade show bg-danger" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -137,8 +137,8 @@
         <div class="bs-toast toast fade show bg-warning" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -149,8 +149,8 @@
         <div class="bs-toast toast fade show bg-info" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -161,8 +161,8 @@
         <div class="bs-toast toast fade show bg-dark" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -173,14 +173,14 @@
     </div>
     <div class="col-md-6 ui-bg-overlay-container p-6">
       <div class="ui-bg-overlay rounded-end-bottom"></div>
-      <div class="text-white small fw-medium mb-4">Translucent</div>
+      <div class="text-white small fw-medium mb-4">نیمه شفاف</div>
 
       <div class="toast-container position-relative">
         <div class="bs-toast toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -191,8 +191,8 @@
         <div class="bs-toast toast fade show bg-primary" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -203,8 +203,8 @@
         <div class="bs-toast toast fade show bg-secondary" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -215,8 +215,8 @@
         <div class="bs-toast toast fade show bg-success" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -227,8 +227,8 @@
         <div class="bs-toast toast fade show bg-danger" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -239,8 +239,8 @@
         <div class="bs-toast toast fade show bg-warning" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -251,8 +251,8 @@
         <div class="bs-toast toast fade show bg-info" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
@@ -263,8 +263,8 @@
         <div class="bs-toast toast fade show bg-dark" role="alert" aria-live="assertive" aria-atomic="true">
           <div class="toast-header">
             <i class='bx bx-bell me-2'></i>
-            <div class="me-auto fw-medium">Bootstrap</div>
-            <small>11 mins ago</small>
+            <div class="me-auto fw-medium">بوت استرپ</div>
+            <small>11 دقیقه قبل</small>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
           </div>
           <div class="toast-body">
